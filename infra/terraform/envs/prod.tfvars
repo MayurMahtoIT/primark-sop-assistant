@@ -1,0 +1,9 @@
+environment       = "prod"
+domain_name       = "storeassist.example.com"
+route53_zone_id   = "Z0000000000000"
+jwt_issuer        = "https://login.microsoftonline.com/<tenant-id>/v2.0"
+jwt_audience      = "api://storeassist"
+jwks_url          = "https://login.microsoftonline.com/<tenant-id>/discovery/v2.0/keys"
+alarm_email       = "platform-oncall@example.com"
+api_min_count     = 2
+api_max_count     = 10

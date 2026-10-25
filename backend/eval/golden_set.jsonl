@@ -1,0 +1,50 @@
+{"q": "How do I resolve ORA-00942 table or view does not exist?", "expect_sop": "SOP-DB-001", "expect_sops": ["SOP-DB-001"]}
+{"q": "What should I check when an application reports table or view does not exist?", "expect_sop": "SOP-DB-001", "expect_sops": ["SOP-DB-001"]}
+{"q": "Listener does not know requested service ORA-12514", "expect_sop": "SOP-DB-002", "expect_sops": ["SOP-DB-002"]}
+{"q": "Client cannot connect because the database listener does not recognize the service name", "expect_sop": "SOP-DB-002", "expect_sops": ["SOP-DB-002"]}
+{"q": "TNS could not resolve the connect identifier ORA-12154", "expect_sop": "SOP-DB-003", "expect_sops": ["SOP-DB-003"]}
+{"q": "TNSnames alias resolution failed for Oracle client connection", "expect_sop": "SOP-DB-003", "expect_sops": ["SOP-DB-003"]}
+{"q": "What should I check for ORA-03113 end of file on communication channel?", "expect_sop": "SOP-DB-004", "expect_sops": ["SOP-DB-004"]}
+{"q": "Database initialization or shutdown is in progress ORA-01033", "expect_sop": "SOP-DB-005", "expect_sops": ["SOP-DB-005"]}
+{"q": "What should I do when an Oracle account is locked with ORA-28000?", "expect_sop": "SOP-DB-006", "expect_sops": ["SOP-DB-006"]}
+{"q": "User account locked after multiple failed logon attempts", "expect_sop": "SOP-DB-006", "expect_sops": ["SOP-DB-006"]}
+{"q": "Oracle password will expire soon ORA-28002", "expect_sop": "SOP-DB-007", "expect_sops": ["SOP-DB-007"]}
+{"q": "ORA-01078 failure processing system parameters during database startup", "expect_sop": "SOP-DB-008", "expect_sops": ["SOP-DB-008"]}
+{"q": "Oracle out of process memory or PGA memory error ORA-04030", "expect_sop": "SOP-DB-009", "expect_sops": ["SOP-DB-009"]}
+{"q": "ORA-01653 unable to extend table in tablespace", "expect_sop": "SOP-DB-010", "expect_sops": ["SOP-DB-010"]}
+{"q": "Tablespace is full and table cannot allocate more extents", "expect_sop": "SOP-DB-010", "expect_sops": ["SOP-DB-010"]}
+{"q": "Unable to create initial extent for a database object ORA-01658", "expect_sop": "SOP-DB-011", "expect_sops": ["SOP-DB-011"]}
+{"q": "ORA-30036 unable to extend segment in undo tablespace", "expect_sop": "SOP-DB-012", "expect_sops": ["SOP-DB-012"]}
+{"q": "Undo tablespace space exhaustion during heavy transaction workload", "expect_sop": "SOP-DB-012", "expect_sops": ["SOP-DB-012"]}
+{"q": "Cannot identify or lock data file ORA-01157", "expect_sop": "SOP-DB-013", "expect_sops": ["SOP-DB-013"]}
+{"q": "ORA-00257 archiver error destination full or archive log hang", "expect_sop": "SOP-DB-014", "expect_sops": ["SOP-DB-014"]}
+{"q": "Archiver process halted because redo log archive destination is full", "expect_sop": "SOP-DB-014", "expect_sops": ["SOP-DB-014"]}
+{"q": "Oracle Fast Recovery Area is nearly full ORA-19815", "expect_sop": "SOP-DB-015", "expect_sops": ["SOP-DB-015"]}
+{"q": "ORA-02291 integrity constraint violated parent key not found", "expect_sop": "SOP-DB-016", "expect_sops": ["SOP-DB-016"]}
+{"q": "Foreign key constraint failure due to missing parent record", "expect_sop": "SOP-DB-016", "expect_sops": ["SOP-DB-016"]}
+{"q": "ORA-01400 cannot insert NULL into column", "expect_sop": "SOP-DB-017", "expect_sops": ["SOP-DB-017"]}
+{"q": "ORA-01422 exact fetch returns more than requested number of rows", "expect_sop": "SOP-DB-018", "expect_sops": ["SOP-DB-018"]}
+{"q": "ORA-01861 literal does not match format string during date conversion", "expect_sop": "SOP-DB-019", "expect_sops": ["SOP-DB-019"]}
+{"q": "ORA-00904 invalid identifier in SQL query", "expect_sop": "SOP-DB-020", "expect_sops": ["SOP-DB-020"]}
+{"q": "ORA-00933 SQL command not properly ended syntax error", "expect_sop": "SOP-DB-021", "expect_sops": ["SOP-DB-021"]}
+{"q": "ORA-00979 not a GROUP BY expression", "expect_sop": "SOP-DB-022", "expect_sops": ["SOP-DB-022"]}
+{"q": "ORA-12899 value too large for column", "expect_sop": "SOP-DB-023", "expect_sops": ["SOP-DB-023"]}
+{"q": "ORA-06502 PL/SQL numeric or value error buffer too small", "expect_sop": "SOP-DB-024", "expect_sops": ["SOP-DB-024"]}
+{"q": "ORA-04068 existing state of packages has been discarded", "expect_sop": "SOP-DB-025", "expect_sops": ["SOP-DB-025"]}
+{"q": "ORA-04021 timeout occurred while waiting to lock library cache object", "expect_sop": "SOP-DB-026", "expect_sops": ["SOP-DB-026"]}
+{"q": "DDL operation timed out waiting to acquire exclusive lock on table", "expect_sop": "SOP-DB-026", "expect_sops": ["SOP-DB-026"]}
+{"q": "ORA-04091 table is mutating trigger or function may not see it", "expect_sop": "SOP-DB-027", "expect_sops": ["SOP-DB-027"]}
+{"q": "ORA-06508 PL/SQL could not find program unit being called", "expect_sop": "SOP-DB-028", "expect_sops": ["SOP-DB-028"]}
+{"q": "ORA-02068 severe error from database link", "expect_sop": "SOP-DB-029", "expect_sops": ["SOP-DB-029"]}
+{"q": "TNS connection timed out across firewall or network link ORA-12170", "expect_sop": "SOP-DB-030", "expect_sops": ["SOP-DB-030"]}
+{"q": "Database connection closed or ORA-01012 not logged on", "expect_sop": "SOP-DB-031", "expect_sops": ["SOP-DB-031"]}
+{"q": "ORA-12519 TNS no appropriate service handler found", "expect_sop": "SOP-DB-032", "expect_sops": ["SOP-DB-032"]}
+{"q": "Database reached session limit with ORA-00018 maximum sessions exceeded", "expect_sop": "SOP-DB-033", "expect_sops": ["SOP-DB-033"]}
+{"q": "Applications fail to connect because all database sessions are utilized", "expect_sop": "SOP-DB-033", "expect_sops": ["SOP-DB-033"]}
+{"q": "ORA-00028 your session has been killed by administrator", "expect_sop": "SOP-DB-034", "expect_sops": ["SOP-DB-034"]}
+{"q": "ORA-00054 resource busy and acquire with NOWAIT specified", "expect_sop": "SOP-DB-038", "expect_sops": ["SOP-DB-038"]}
+{"q": "Object or grant missing after environment refresh or clone", "expect_sop": "SOP-DB-039", "expect_sops": ["SOP-DB-039", "SOP-DB-001"]}
+{"q": "Dependent packages or views became invalid after refresh and need recompilation", "expect_sop": "SOP-DB-040", "expect_sops": ["SOP-DB-040"]}
+{"q": "All pooled database connections are busy leaked or timing out", "expect_sop": "SOP-DB-045", "expect_sops": ["SOP-DB-045"]}
+{"q": "RMAN backup exists on disk but catalog integrity validation failed", "expect_sop": "SOP-DB-048", "expect_sops": ["SOP-DB-048"]}
+{"q": "Materialized view refresh failed due to database link or dependency failure", "expect_sop": "SOP-DB-051", "expect_sops": ["SOP-DB-051"]}

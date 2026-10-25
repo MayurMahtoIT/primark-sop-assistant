@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.pytest_cache/
+.ruff_cache/
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+.DS_Store
+dist/
+
+# Local Chroma vector database data
+.chroma/
+chroma_data/

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Primark DBA SOP Assistant</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="top">
+      <div>
+        <h1>Primark DBA SOP Assistant</h1>
+        <p class="sub">Ask an Oracle database question. Get a grounded SOP answer with its source.</p>
+      </div>
+      <button id="new-chat" class="ghost" type="button">New chat</button>
+    </header>
+
+    <div class="chips" role="group" aria-label="Limit answers to a department">
+      <button class="chip on" data-dept="" type="button">All SOPs</button>
+      <button class="chip" data-dept="DBA" type="button">Oracle DBA</button>
+    </div>
+
+    <main id="thread" class="thread" aria-live="polite">
+      <div class="empty" id="empty">
+        <p class="empty-title">What database issue do you need to investigate?</p>
+        <button class="starter" type="button">What should I check for ORA-00942?</button>
+        <button class="starter" type="button">What does ORA-12514 mean?</button>
+        <button class="starter" type="button">How should I investigate a failed database refresh?</button>
+      </div>
+    </main>
+
+    <form id="composer" class="composer" autocomplete="off">
+      <label class="sr" for="q">Your question</label>
+      <textarea id="q" rows="1" maxlength="2000" placeholder="Ask about an Oracle error or database SOP…" required></textarea>
+      <button id="send" type="submit">Ask</button>
+    </form>
+    <p class="foot">Answers are grounded in indexed SOPs. Draft SOPs must be reviewed by the responsible DBA before operational use.</p>
+  </div>
+
+  <dialog id="token-dialog">
+    <form method="dialog">
+      <p><strong>Sign-in needed.</strong> Paste an access token for this environment. In production the intranet or Teams app supplies it through single sign-on.</p>
+      <textarea id="token-input" rows="4" aria-label="Access token"></textarea>
+      <div class="row"><button value="cancel" class="ghost">Cancel</button><button id="token-save" value="ok">Save token</button></div>
+    </form>
+  </dialog>
+  <script src="/app.js"></script>
+</body>
+</html>
